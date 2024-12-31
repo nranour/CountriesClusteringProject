@@ -4,7 +4,6 @@ import streamlit as st
 import pickle
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
-import base64
 
 
 # Charger l'objet de normalisation
@@ -28,7 +27,7 @@ with st.container():
     with col[0]:
         st.markdown("""
             <div style="text-align: center;">
-                <img src="http://www.ehtp.ac.ma/images/lo.png"/>
+                <img src="ehtp_logo.png"/>
                 <br>
                 <h2>MSDE6 : Machine Learning Project</h2>
                 <h3>Countries Segmentation Application</h3>
